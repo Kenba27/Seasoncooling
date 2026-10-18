@@ -1,0 +1,33 @@
+# ===== MUA HE: GIAM NHIET =====
+# Thoi gian giam nhiet (giay)
+durations:
+  water: 60        # chai nuoc
+  watermelon: 30   # dua hau (melon slice)
+  iced-tea: 120    # "Tra da" (honey bottle co ten chua "Trà đá")
+
+# Nhiet do (do C) se dao dong trong khoang nay khi dang "mat".
+# Chi GIAM: neu nhiet do that da thap hon khoang nay thi giu nguyen.
+temperature:
+  min: 38.0
+  max: 40.0
+
+# Ten vat pham tra da (khong phan biet mau/hoa thuong)
+iced-tea-name: "Trà đá"
+
+# ===== MUA DONG: GIU AM =====
+warming:
+  # Thoi gian giu am (giay)
+  durations:
+    hot-water: 120     # "Nuoc am" (honey bottle co ten chua "Nước ấm")
+    stew: 60           # sup nam / sup tho / sup cu den (mushroom/rabbit stew, beetroot soup)
+    baked-potato: 30   # khoai tay nuong
+
+  # Nhiet do (do C) se dao dong trong khoang nay khi dang "am".
+  # Chi TANG: neu nhiet do that da cao hon khoang nay thi giu nguyen.
+  # QUAN TRONG: dat khoang nay CAO HON nguong lanh gay hai cua Seasons.
+  temperature:
+    min: 10.0
+    max: 12.0
+
+  # Ten vat pham nuoc am. Lam bang cach cam chai nuoc, chuot phai vao lua trai dang chay.
+  hot-water-name: "Nước ấm"
